@@ -8,68 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		95246FD621F8B36700873503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95246FD521F8B36700873503 /* Assets.xcassets */; };
-		95246FDD21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95246FDC21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95246FDD21F8B36700873503 /* StikersApp MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95246FDC21F8B36700873503 /* StikersApp MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		95246FE221F8B36700873503 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95246FE121F8B36700873503 /* Messages.framework */; };
 		95246FE821F8B36700873503 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95246FE621F8B36700873503 /* MainInterface.storyboard */; };
 		95246FEA21F8B36800873503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95246FE921F8B36800873503 /* Assets.xcassets */; };
 		95246FF921F8B3BB00873503 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95246FF521F8B3BA00873503 /* StickerCell.swift */; };
 		95246FFB21F8B3BB00873503 /* StickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95246FF721F8B3BB00873503 /* StickerCollectionViewController.swift */; };
 		95246FFC21F8B3BB00873503 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95246FF821F8B3BB00873503 /* Constants.swift */; };
-		9524706221F924DC00873503 /* 34-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703021F924D100873503 /* 34-emoji.png */; };
-		9524706321F924DC00873503 /* 46-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703121F924D100873503 /* 46-emoji.png */; };
-		9524706421F924DC00873503 /* 23-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703221F924D100873503 /* 23-emoji.png */; };
-		9524706521F924DC00873503 /* 40-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703321F924D200873503 /* 40-emoji.png */; };
-		9524706621F924DC00873503 /* 29-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703421F924D200873503 /* 29-emoji.png */; };
-		9524706721F924DC00873503 /* 45-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703521F924D200873503 /* 45-emoji.png */; };
-		9524706821F924DC00873503 /* 28-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703621F924D200873503 /* 28-emoji.png */; };
-		9524706921F924DC00873503 /* 30-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703721F924D300873503 /* 30-emoji.png */; };
-		9524706A21F924DC00873503 /* 35-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703821F924D300873503 /* 35-emoji.png */; };
-		9524706B21F924DC00873503 /* 06-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703921F924D300873503 /* 06-emoji.png */; };
-		9524706C21F924DC00873503 /* 04-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703A21F924D400873503 /* 04-emoji.png */; };
-		9524706D21F924DC00873503 /* 39-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703B21F924D400873503 /* 39-emoji.png */; };
-		9524706F21F924DC00873503 /* 21-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703D21F924D400873503 /* 21-emoji.png */; };
-		9524707021F924DC00873503 /* 19-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703E21F924D400873503 /* 19-emoji.png */; };
-		9524707121F924DC00873503 /* 27-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524703F21F924D500873503 /* 27-emoji.png */; };
-		9524707221F924DC00873503 /* 44-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704021F924D500873503 /* 44-emoji.png */; };
-		9524707321F924DC00873503 /* 10-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704121F924D500873503 /* 10-emoji.png */; };
-		9524707421F924DC00873503 /* 12-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704221F924D600873503 /* 12-emoji.png */; };
-		9524707521F924DC00873503 /* 13-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704321F924D600873503 /* 13-emoji.png */; };
-		9524707621F924DC00873503 /* 31-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704421F924D600873503 /* 31-emoji.png */; };
-		9524707721F924DC00873503 /* 24-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704521F924D600873503 /* 24-emoji.png */; };
-		9524707821F924DC00873503 /* 25-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704621F924D600873503 /* 25-emoji.png */; };
-		9524707921F924DC00873503 /* 02-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704721F924D700873503 /* 02-emoji.png */; };
-		9524707A21F924DC00873503 /* 08-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704821F924D700873503 /* 08-emoji.png */; };
-		9524707B21F924DC00873503 /* 09-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704921F924D700873503 /* 09-emoji.png */; };
-		9524707C21F924DC00873503 /* 03-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704A21F924D700873503 /* 03-emoji.png */; };
-		9524707D21F924DC00873503 /* 38-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704B21F924D700873503 /* 38-emoji.png */; };
-		9524707E21F924DC00873503 /* 07-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704C21F924D800873503 /* 07-emoji.png */; };
-		9524707F21F924DC00873503 /* 17-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704D21F924D800873503 /* 17-emoji.png */; };
-		9524708021F924DC00873503 /* 49-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704E21F924D800873503 /* 49-emoji.png */; };
-		9524708121F924DC00873503 /* 37-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524704F21F924D800873503 /* 37-emoji.png */; };
-		9524708221F924DC00873503 /* 05-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705021F924D900873503 /* 05-emoji.png */; };
-		9524708321F924DC00873503 /* 20-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705121F924D900873503 /* 20-emoji.png */; };
-		9524708421F924DC00873503 /* 33-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705221F924D900873503 /* 33-emoji.png */; };
-		9524708521F924DC00873503 /* 11-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705321F924D900873503 /* 11-emoji.png */; };
-		9524708621F924DC00873503 /* 42-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705421F924D900873503 /* 42-emoji.png */; };
-		9524708721F924DC00873503 /* 41-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705521F924DA00873503 /* 41-emoji.png */; };
-		9524708821F924DC00873503 /* 36-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705621F924DA00873503 /* 36-emoji.png */; };
-		9524708921F924DC00873503 /* 18-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705721F924DA00873503 /* 18-emoji.png */; };
-		9524708A21F924DC00873503 /* 32-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705821F924DA00873503 /* 32-emoji.png */; };
-		9524708B21F924DC00873503 /* 26-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705921F924DA00873503 /* 26-emoji.png */; };
-		9524708C21F924DC00873503 /* 43-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705A21F924DA00873503 /* 43-emoji.png */; };
-		9524708D21F924DC00873503 /* 48-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705B21F924DA00873503 /* 48-emoji.png */; };
-		9524708E21F924DC00873503 /* 16-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705C21F924DB00873503 /* 16-emoji.png */; };
-		9524708F21F924DC00873503 /* 50-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705D21F924DB00873503 /* 50-emoji.png */; };
-		9524709021F924DC00873503 /* 47-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705E21F924DB00873503 /* 47-emoji.png */; };
-		9524709121F924DC00873503 /* 14-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524705F21F924DB00873503 /* 14-emoji.png */; };
-		9524709221F924DC00873503 /* 22-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524706021F924DC00873503 /* 22-emoji.png */; };
-		9524709321F924DC00873503 /* 15-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524706121F924DC00873503 /* 15-emoji.png */; };
 		9524709521F92A3500873503 /* BottomCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9524709421F92A3500873503 /* BottomCollectionView.xib */; };
 		9524709721F92A9B00873503 /* BottomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524709621F92A9B00873503 /* BottomCollectionView.swift */; };
 		9524709921F92C8200873503 /* BottomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524709821F92C8200873503 /* BottomCollectionCell.swift */; };
 		9524709B21F92CCD00873503 /* BottomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9524709A21F92CCD00873503 /* BottomCollectionCell.xib */; };
 		958EC97321F9E861004E7A6C /* MoreAppsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EC97221F9E861004E7A6C /* MoreAppsDataManager.swift */; };
-		958EC97921FA1286004E7A6C /* 01-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 958EC97821FA1286004E7A6C /* 01-emoji.png */; };
 		958EC97B21FA1830004E7A6C /* StickerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 958EC97A21FA1830004E7A6C /* StickerData.plist */; };
 		958EC97E21FA1AC5004E7A6C /* StickerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EC97D21FA1AC5004E7A6C /* StickerObject.swift */; };
 		958EC98521FA1E29004E7A6C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EC98021FA1D24004E7A6C /* MessagesViewController.swift */; };
@@ -101,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				95246FDD21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex in Embed App Extensions */,
+				95246FDD21F8B36700873503 /* StikersApp MessagesExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,10 +59,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		95246FD221F8B36500873503 /* 50 Emoji Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50 Emoji Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95246FD221F8B36500873503 /* StikersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StikersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95246FD521F8B36700873503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95246FD721F8B36700873503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95246FDC21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "50 Emoji Stickers MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95246FDC21F8B36700873503 /* StikersApp MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StikersApp MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95246FE121F8B36700873503 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		95246FE721F8B36700873503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		95246FE921F8B36800873503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,61 +70,11 @@
 		95246FF521F8B3BA00873503 /* StickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
 		95246FF721F8B3BB00873503 /* StickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewController.swift; sourceTree = "<group>"; };
 		95246FF821F8B3BB00873503 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9524703021F924D100873503 /* 34-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-emoji.png"; sourceTree = "<group>"; };
-		9524703121F924D100873503 /* 46-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-emoji.png"; sourceTree = "<group>"; };
-		9524703221F924D100873503 /* 23-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-emoji.png"; sourceTree = "<group>"; };
-		9524703321F924D200873503 /* 40-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-emoji.png"; sourceTree = "<group>"; };
-		9524703421F924D200873503 /* 29-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-emoji.png"; sourceTree = "<group>"; };
-		9524703521F924D200873503 /* 45-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-emoji.png"; sourceTree = "<group>"; };
-		9524703621F924D200873503 /* 28-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-emoji.png"; sourceTree = "<group>"; };
-		9524703721F924D300873503 /* 30-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30-emoji.png"; sourceTree = "<group>"; };
-		9524703821F924D300873503 /* 35-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "35-emoji.png"; sourceTree = "<group>"; };
-		9524703921F924D300873503 /* 06-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-emoji.png"; sourceTree = "<group>"; };
-		9524703A21F924D400873503 /* 04-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-emoji.png"; sourceTree = "<group>"; };
-		9524703B21F924D400873503 /* 39-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-emoji.png"; sourceTree = "<group>"; };
-		9524703D21F924D400873503 /* 21-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21-emoji.png"; sourceTree = "<group>"; };
-		9524703E21F924D400873503 /* 19-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-emoji.png"; sourceTree = "<group>"; };
-		9524703F21F924D500873503 /* 27-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27-emoji.png"; sourceTree = "<group>"; };
-		9524704021F924D500873503 /* 44-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-emoji.png"; sourceTree = "<group>"; };
-		9524704121F924D500873503 /* 10-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-emoji.png"; sourceTree = "<group>"; };
-		9524704221F924D600873503 /* 12-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-emoji.png"; sourceTree = "<group>"; };
-		9524704321F924D600873503 /* 13-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-emoji.png"; sourceTree = "<group>"; };
-		9524704421F924D600873503 /* 31-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-emoji.png"; sourceTree = "<group>"; };
-		9524704521F924D600873503 /* 24-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-emoji.png"; sourceTree = "<group>"; };
-		9524704621F924D600873503 /* 25-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-emoji.png"; sourceTree = "<group>"; };
-		9524704721F924D700873503 /* 02-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-emoji.png"; sourceTree = "<group>"; };
-		9524704821F924D700873503 /* 08-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-emoji.png"; sourceTree = "<group>"; };
-		9524704921F924D700873503 /* 09-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-emoji.png"; sourceTree = "<group>"; };
-		9524704A21F924D700873503 /* 03-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-emoji.png"; sourceTree = "<group>"; };
-		9524704B21F924D700873503 /* 38-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38-emoji.png"; sourceTree = "<group>"; };
-		9524704C21F924D800873503 /* 07-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-emoji.png"; sourceTree = "<group>"; };
-		9524704D21F924D800873503 /* 17-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17-emoji.png"; sourceTree = "<group>"; };
-		9524704E21F924D800873503 /* 49-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "49-emoji.png"; sourceTree = "<group>"; };
-		9524704F21F924D800873503 /* 37-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37-emoji.png"; sourceTree = "<group>"; };
-		9524705021F924D900873503 /* 05-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05-emoji.png"; sourceTree = "<group>"; };
-		9524705121F924D900873503 /* 20-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-emoji.png"; sourceTree = "<group>"; };
-		9524705221F924D900873503 /* 33-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-emoji.png"; sourceTree = "<group>"; };
-		9524705321F924D900873503 /* 11-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-emoji.png"; sourceTree = "<group>"; };
-		9524705421F924D900873503 /* 42-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-emoji.png"; sourceTree = "<group>"; };
-		9524705521F924DA00873503 /* 41-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "41-emoji.png"; sourceTree = "<group>"; };
-		9524705621F924DA00873503 /* 36-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-emoji.png"; sourceTree = "<group>"; };
-		9524705721F924DA00873503 /* 18-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-emoji.png"; sourceTree = "<group>"; };
-		9524705821F924DA00873503 /* 32-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32-emoji.png"; sourceTree = "<group>"; };
-		9524705921F924DA00873503 /* 26-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-emoji.png"; sourceTree = "<group>"; };
-		9524705A21F924DA00873503 /* 43-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-emoji.png"; sourceTree = "<group>"; };
-		9524705B21F924DA00873503 /* 48-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-emoji.png"; sourceTree = "<group>"; };
-		9524705C21F924DB00873503 /* 16-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16-emoji.png"; sourceTree = "<group>"; };
-		9524705D21F924DB00873503 /* 50-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50-emoji.png"; sourceTree = "<group>"; };
-		9524705E21F924DB00873503 /* 47-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "47-emoji.png"; sourceTree = "<group>"; };
-		9524705F21F924DB00873503 /* 14-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-emoji.png"; sourceTree = "<group>"; };
-		9524706021F924DC00873503 /* 22-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-emoji.png"; sourceTree = "<group>"; };
-		9524706121F924DC00873503 /* 15-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-emoji.png"; sourceTree = "<group>"; };
 		9524709421F92A3500873503 /* BottomCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomCollectionView.xib; sourceTree = "<group>"; };
 		9524709621F92A9B00873503 /* BottomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCollectionView.swift; sourceTree = "<group>"; };
 		9524709821F92C8200873503 /* BottomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCollectionCell.swift; sourceTree = "<group>"; };
 		9524709A21F92CCD00873503 /* BottomCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomCollectionCell.xib; sourceTree = "<group>"; };
 		958EC97221F9E861004E7A6C /* MoreAppsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAppsDataManager.swift; sourceTree = "<group>"; };
-		958EC97821FA1286004E7A6C /* 01-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-emoji.png"; sourceTree = "<group>"; };
 		958EC97A21FA1830004E7A6C /* StickerData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StickerData.plist; sourceTree = "<group>"; };
 		958EC97D21FA1AC5004E7A6C /* StickerObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerObject.swift; sourceTree = "<group>"; };
 		958EC98021FA1D24004E7A6C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -222,8 +122,8 @@
 		95246FD321F8B36500873503 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95246FD221F8B36500873503 /* 50 Emoji Stickers.app */,
-				95246FDC21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex */,
+				95246FD221F8B36500873503 /* StikersApp.app */,
+				95246FDC21F8B36700873503 /* StikersApp MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,56 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				958EC97A21FA1830004E7A6C /* StickerData.plist */,
-				958EC97821FA1286004E7A6C /* 01-emoji.png */,
-				9524704721F924D700873503 /* 02-emoji.png */,
-				9524704A21F924D700873503 /* 03-emoji.png */,
-				9524703A21F924D400873503 /* 04-emoji.png */,
-				9524705021F924D900873503 /* 05-emoji.png */,
-				9524703921F924D300873503 /* 06-emoji.png */,
-				9524704C21F924D800873503 /* 07-emoji.png */,
-				9524704821F924D700873503 /* 08-emoji.png */,
-				9524704921F924D700873503 /* 09-emoji.png */,
-				9524704121F924D500873503 /* 10-emoji.png */,
-				9524705321F924D900873503 /* 11-emoji.png */,
-				9524704221F924D600873503 /* 12-emoji.png */,
-				9524704321F924D600873503 /* 13-emoji.png */,
-				9524705F21F924DB00873503 /* 14-emoji.png */,
-				9524706121F924DC00873503 /* 15-emoji.png */,
-				9524705C21F924DB00873503 /* 16-emoji.png */,
-				9524704D21F924D800873503 /* 17-emoji.png */,
-				9524705721F924DA00873503 /* 18-emoji.png */,
-				9524703E21F924D400873503 /* 19-emoji.png */,
-				9524705121F924D900873503 /* 20-emoji.png */,
-				9524703D21F924D400873503 /* 21-emoji.png */,
-				9524706021F924DC00873503 /* 22-emoji.png */,
-				9524703221F924D100873503 /* 23-emoji.png */,
-				9524704521F924D600873503 /* 24-emoji.png */,
-				9524704621F924D600873503 /* 25-emoji.png */,
-				9524705921F924DA00873503 /* 26-emoji.png */,
-				9524703F21F924D500873503 /* 27-emoji.png */,
-				9524703621F924D200873503 /* 28-emoji.png */,
-				9524703421F924D200873503 /* 29-emoji.png */,
-				9524703721F924D300873503 /* 30-emoji.png */,
-				9524704421F924D600873503 /* 31-emoji.png */,
-				9524705821F924DA00873503 /* 32-emoji.png */,
-				9524705221F924D900873503 /* 33-emoji.png */,
-				9524703021F924D100873503 /* 34-emoji.png */,
-				9524703821F924D300873503 /* 35-emoji.png */,
-				9524705621F924DA00873503 /* 36-emoji.png */,
-				9524704F21F924D800873503 /* 37-emoji.png */,
-				9524704B21F924D700873503 /* 38-emoji.png */,
-				9524703B21F924D400873503 /* 39-emoji.png */,
-				9524703321F924D200873503 /* 40-emoji.png */,
-				9524705521F924DA00873503 /* 41-emoji.png */,
-				9524705421F924D900873503 /* 42-emoji.png */,
-				9524705A21F924DA00873503 /* 43-emoji.png */,
-				9524704021F924D500873503 /* 44-emoji.png */,
-				9524703521F924D200873503 /* 45-emoji.png */,
-				9524703121F924D100873503 /* 46-emoji.png */,
-				9524705E21F924DB00873503 /* 47-emoji.png */,
-				9524705B21F924DA00873503 /* 48-emoji.png */,
-				9524704E21F924D800873503 /* 49-emoji.png */,
-				9524705D21F924DB00873503 /* 50-emoji.png */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -384,9 +234,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95246FD121F8B36500873503 /* 50 Emoji Stickers */ = {
+		95246FD121F8B36500873503 /* StikersApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95246FF221F8B36800873503 /* Build configuration list for PBXNativeTarget "50 Emoji Stickers" */;
+			buildConfigurationList = 95246FF221F8B36800873503 /* Build configuration list for PBXNativeTarget "StikersApp" */;
 			buildPhases = (
 				95246FD021F8B36500873503 /* Resources */,
 				95246FF121F8B36800873503 /* Embed App Extensions */,
@@ -397,14 +247,14 @@
 			dependencies = (
 				95246FDF21F8B36700873503 /* PBXTargetDependency */,
 			);
-			name = "50 Emoji Stickers";
+			name = StikersApp;
 			productName = PaulStickerPack;
-			productReference = 95246FD221F8B36500873503 /* 50 Emoji Stickers.app */;
+			productReference = 95246FD221F8B36500873503 /* StikersApp.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		95246FDB21F8B36700873503 /* 50 Emoji Stickers MessagesExtension */ = {
+		95246FDB21F8B36700873503 /* StikersApp MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95246FEE21F8B36800873503 /* Build configuration list for PBXNativeTarget "50 Emoji Stickers MessagesExtension" */;
+			buildConfigurationList = 95246FEE21F8B36800873503 /* Build configuration list for PBXNativeTarget "StikersApp MessagesExtension" */;
 			buildPhases = (
 				95246FD821F8B36700873503 /* Sources */,
 				95246FD921F8B36700873503 /* Frameworks */,
@@ -414,9 +264,9 @@
 			);
 			dependencies = (
 			);
-			name = "50 Emoji Stickers MessagesExtension";
+			name = "StikersApp MessagesExtension";
 			productName = "PaulStickerPack MessagesExtension";
-			productReference = 95246FDC21F8B36700873503 /* 50 Emoji Stickers MessagesExtension.appex */;
+			productReference = 95246FDC21F8B36700873503 /* StikersApp MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
@@ -427,7 +277,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Anna Tikanova";
+				ORGANIZATIONNAME = "Alexey Parkhomenko";
 				TargetAttributes = {
 					95246FD121F8B36500873503 = {
 						CreatedOnToolsVersion = 10.1;
@@ -442,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95246FCF21F8B36500873503 /* Build configuration list for PBXProject "50 Emoji Stickers" */;
+			buildConfigurationList = 95246FCF21F8B36500873503 /* Build configuration list for PBXProject "StikersApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -455,8 +305,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95246FD121F8B36500873503 /* 50 Emoji Stickers */,
-				95246FDB21F8B36700873503 /* 50 Emoji Stickers MessagesExtension */,
+				95246FD121F8B36500873503 /* StikersApp */,
+				95246FDB21F8B36700873503 /* StikersApp MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -474,62 +324,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9524708021F924DC00873503 /* 49-emoji.png in Resources */,
-				9524707C21F924DC00873503 /* 03-emoji.png in Resources */,
-				9524708221F924DC00873503 /* 05-emoji.png in Resources */,
-				9524707721F924DC00873503 /* 24-emoji.png in Resources */,
 				958EC99921FB3853004E7A6C /* README.rtf in Resources */,
-				9524709121F924DC00873503 /* 14-emoji.png in Resources */,
-				9524708321F924DC00873503 /* 20-emoji.png in Resources */,
-				9524707F21F924DC00873503 /* 17-emoji.png in Resources */,
-				9524706F21F924DC00873503 /* 21-emoji.png in Resources */,
-				9524706721F924DC00873503 /* 45-emoji.png in Resources */,
-				9524708521F924DC00873503 /* 11-emoji.png in Resources */,
-				9524708921F924DC00873503 /* 18-emoji.png in Resources */,
 				9524709521F92A3500873503 /* BottomCollectionView.xib in Resources */,
-				9524706321F924DC00873503 /* 46-emoji.png in Resources */,
-				9524708421F924DC00873503 /* 33-emoji.png in Resources */,
-				9524707021F924DC00873503 /* 19-emoji.png in Resources */,
-				9524707A21F924DC00873503 /* 08-emoji.png in Resources */,
-				9524709021F924DC00873503 /* 47-emoji.png in Resources */,
-				9524706D21F924DC00873503 /* 39-emoji.png in Resources */,
-				9524706621F924DC00873503 /* 29-emoji.png in Resources */,
-				9524709321F924DC00873503 /* 15-emoji.png in Resources */,
-				9524708121F924DC00873503 /* 37-emoji.png in Resources */,
-				9524707E21F924DC00873503 /* 07-emoji.png in Resources */,
-				9524707D21F924DC00873503 /* 38-emoji.png in Resources */,
-				9524707621F924DC00873503 /* 31-emoji.png in Resources */,
-				9524708F21F924DC00873503 /* 50-emoji.png in Resources */,
-				9524707321F924DC00873503 /* 10-emoji.png in Resources */,
-				9524707921F924DC00873503 /* 02-emoji.png in Resources */,
-				9524708B21F924DC00873503 /* 26-emoji.png in Resources */,
-				9524706521F924DC00873503 /* 40-emoji.png in Resources */,
-				9524708821F924DC00873503 /* 36-emoji.png in Resources */,
-				9524707821F924DC00873503 /* 25-emoji.png in Resources */,
-				9524708621F924DC00873503 /* 42-emoji.png in Resources */,
 				9524709B21F92CCD00873503 /* BottomCollectionCell.xib in Resources */,
-				9524708A21F924DC00873503 /* 32-emoji.png in Resources */,
-				9524706C21F924DC00873503 /* 04-emoji.png in Resources */,
-				9524709221F924DC00873503 /* 22-emoji.png in Resources */,
-				9524706A21F924DC00873503 /* 35-emoji.png in Resources */,
-				9524707421F924DC00873503 /* 12-emoji.png in Resources */,
 				95246FEA21F8B36800873503 /* Assets.xcassets in Resources */,
-				9524707521F924DC00873503 /* 13-emoji.png in Resources */,
-				9524707B21F924DC00873503 /* 09-emoji.png in Resources */,
-				9524708D21F924DC00873503 /* 48-emoji.png in Resources */,
-				958EC97921FA1286004E7A6C /* 01-emoji.png in Resources */,
-				9524708E21F924DC00873503 /* 16-emoji.png in Resources */,
-				9524708C21F924DC00873503 /* 43-emoji.png in Resources */,
-				9524708721F924DC00873503 /* 41-emoji.png in Resources */,
-				9524706421F924DC00873503 /* 23-emoji.png in Resources */,
-				9524706221F924DC00873503 /* 34-emoji.png in Resources */,
-				9524707221F924DC00873503 /* 44-emoji.png in Resources */,
 				958EC97B21FA1830004E7A6C /* StickerData.plist in Resources */,
 				95246FE821F8B36700873503 /* MainInterface.storyboard in Resources */,
-				9524706921F924DC00873503 /* 30-emoji.png in Resources */,
-				9524706821F924DC00873503 /* 28-emoji.png in Resources */,
-				9524707121F924DC00873503 /* 27-emoji.png in Resources */,
-				9524706B21F924DC00873503 /* 06-emoji.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +363,7 @@
 /* Begin PBXTargetDependency section */
 		95246FDF21F8B36700873503 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 95246FDB21F8B36700873503 /* 50 Emoji Stickers MessagesExtension */;
+			target = 95246FDB21F8B36700873503 /* StikersApp MessagesExtension */;
 			targetProxy = 95246FDE21F8B36700873503 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -701,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4YTV3RZA6Y;
+				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = "50 Emoji Stickers MessagesExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -709,7 +509,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.at.50EmojiStickers.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.StikersApp.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -722,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4YTV3RZA6Y;
+				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = "50 Emoji Stickers MessagesExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,7 +530,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.at.50EmojiStickers.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.StikersApp.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -744,9 +544,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4YTV3RZA6Y;
+				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = "50 Emoji Stickers/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.at.50EmojiStickers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.StikersApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -759,9 +559,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4YTV3RZA6Y;
+				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = "50 Emoji Stickers/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.at.50EmojiStickers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.StikersApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -771,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95246FCF21F8B36500873503 /* Build configuration list for PBXProject "50 Emoji Stickers" */ = {
+		95246FCF21F8B36500873503 /* Build configuration list for PBXProject "StikersApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95246FEC21F8B36800873503 /* Debug */,
@@ -780,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95246FEE21F8B36800873503 /* Build configuration list for PBXNativeTarget "50 Emoji Stickers MessagesExtension" */ = {
+		95246FEE21F8B36800873503 /* Build configuration list for PBXNativeTarget "StikersApp MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95246FEF21F8B36800873503 /* Debug */,
@@ -789,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95246FF221F8B36800873503 /* Build configuration list for PBXNativeTarget "50 Emoji Stickers" */ = {
+		95246FF221F8B36800873503 /* Build configuration list for PBXNativeTarget "StikersApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95246FF321F8B36800873503 /* Debug */,

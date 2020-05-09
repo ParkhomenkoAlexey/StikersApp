@@ -2,9 +2,7 @@
 //  Constansts.swift
 //  Archie MessagesExtension
 //
-//  Created by Anna Tikanova on 4/18/18.
-//  Copyright © 2018 Anna Tikanova. All rights reserved.
-//
+
 
 struct Storyboard {
     

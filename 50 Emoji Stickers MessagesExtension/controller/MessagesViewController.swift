@@ -1,10 +1,6 @@
 //
 //  MessagesViewController.swift
-//  50 Emoji Stickers MessagesExtension
-//
-//  Created by Anna Tikanova on 1/23/19.
-//  Copyright © 2019 Anna Tikanova. All rights reserved.
-//
+
 
 import UIKit
 import Messages
@@ -30,6 +26,7 @@ class MessagesViewController: MSMessagesAppViewController {
     override func willBecomeActive(with conversation: MSConversation) {
         super.willBecomeActive(with: conversation)
         let _ = MoreAppsDataManager.shared
+        
         let _ = IAPHelper.shared
         
         setAppTheme()

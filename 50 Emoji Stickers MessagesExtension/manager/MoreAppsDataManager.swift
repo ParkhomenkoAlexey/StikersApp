@@ -1,10 +1,6 @@
 //
 //  FooterDataManager.swift
-//  50 Emoji Stickers MessagesExtension
-//
-//  Created by Anna Tikanova on 1/24/19.
-//  Copyright © 2019 Anna Tikanova. All rights reserved.
-//
+
 
 import UIKit
 
@@ -12,7 +8,7 @@ struct MoreAppsDataManager {
     
     static let shared = MoreAppsDataManager()
     
-    let developerId = "960076496"
+    let developerId = "0"
     let lookupUrl = "https://itunes.apple.com/lookup?id=%@&entity=software"
     
     var dataSource = [[String: UIImage]]()

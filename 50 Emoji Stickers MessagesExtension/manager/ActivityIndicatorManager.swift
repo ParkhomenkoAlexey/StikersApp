@@ -1,10 +1,5 @@
 //
 //  ActivityIndicatorManager.swift
-//  50 Emoji Stickers MessagesExtension
-//
-//  Created by Anna Tikanova on 1/25/19.
-//  Copyright © 2019 Anna Tikanova. All rights reserved.
-//
 
 import UIKit
 

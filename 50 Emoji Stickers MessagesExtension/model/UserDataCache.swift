@@ -1,10 +1,5 @@
 //
 //  UserDataCache.swift
-//  Poly
-//
-//  Created by Anna Tikanova on 4/3/18.
-//  Copyright © 2018 Anna Tikanova. All rights reserved.
-//
 
 import Foundation
 struct UserData {
