@@ -134,6 +134,7 @@
 		F092D9A5247163BA0072C7CC /* 02-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = F092D9A3247163BA0072C7CC /* 02-emoji.png */; };
 		F099FE4024727CC400F3F987 /* MyStikersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */; };
 		F099FE4224727CE400F3F987 /* CollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE4124727CE400F3F987 /* CollectionFooterView.swift */; };
+		F099FE442472821000F3F987 /* MyStickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE432472821000F3F987 /* MyStickerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +242,7 @@
 		F092D9A3247163BA0072C7CC /* 02-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-emoji.png"; sourceTree = "<group>"; };
 		F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStikersViewController.swift; sourceTree = "<group>"; };
 		F099FE4124727CE400F3F987 /* CollectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFooterView.swift; sourceTree = "<group>"; };
+		F099FE432472821000F3F987 /* MyStickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStickerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +414,7 @@
 				958EC98021FA1D24004E7A6C /* MessagesViewController.swift */,
 				95246FF721F8B3BB00873503 /* StickerCollectionViewController.swift */,
 				F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */,
+				F099FE432472821000F3F987 /* MyStickerCell.swift */,
 				F099FE4124727CE400F3F987 /* CollectionFooterView.swift */,
 			);
 			path = controller;
@@ -650,6 +653,7 @@
 				958EC98521FA1E29004E7A6C /* MessagesViewController.swift in Sources */,
 				95246FFC21F8B3BB00873503 /* Constants.swift in Sources */,
 				F099FE4024727CC400F3F987 /* MyStikersViewController.swift in Sources */,
+				F099FE442472821000F3F987 /* MyStickerCell.swift in Sources */,
 				F099FE4224727CE400F3F987 /* CollectionFooterView.swift in Sources */,
 				958EC97E21FA1AC5004E7A6C /* StickerObject.swift in Sources */,
 				958EC98F21FB1809004E7A6C /* ActivityIndicatorManager.swift in Sources */,

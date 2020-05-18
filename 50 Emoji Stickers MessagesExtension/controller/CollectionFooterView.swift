@@ -33,7 +33,7 @@ class CollectionFooterView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .red
+        backgroundColor = .white
         
         setupElements()
         setupConstraints()

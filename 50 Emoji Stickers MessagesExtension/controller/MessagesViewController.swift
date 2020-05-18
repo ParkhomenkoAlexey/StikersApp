@@ -35,9 +35,9 @@ class MessagesViewController: MSMessagesAppViewController {
     }
     
     private func setAppTheme(){
-        UILabel.appearance().substituteFontColor = UIColor(hexString: "424242")
-        UIButton.appearance().substituteFontColor = UIColor(hexString: "424242")
-        UIFont.overrideInitialize()
+//        UILabel.appearance().substituteFontColor = UIColor(hexString: "424242")
+//        UIButton.appearance().substituteFontColor = UIColor(hexString: "424242")
+//        UIFont.overrideInitialize()
     }
     
     override func didTransition(to presentationStyle: MSMessagesAppPresentationStyle) {
@@ -48,7 +48,9 @@ class MessagesViewController: MSMessagesAppViewController {
     
     private func present(with presentationStyle:MSMessagesAppPresentationStyle) {
         // Remove any existing child controllers.
-        let viewController = UIStoryboard(name: Storyboard.mainInterface, bundle: nil).instantiateViewController(withIdentifier: Storyboard.stickerVCIdentifier) as! StickerCollectionViewController
+//        let viewController = UIStoryboard(name: Storyboard.mainInterface, bundle: nil).instantiateViewController(withIdentifier: Storyboard.stickerVCIdentifier) as! StickerCollectionViewController
+        
+        let viewController = MyStikersViewController()
         
         for child in children {
             child.willMove(toParent: nil)

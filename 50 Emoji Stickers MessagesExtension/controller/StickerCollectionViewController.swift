@@ -162,7 +162,7 @@ extension StickerCollectionViewController: UICollectionViewDataSource, UICollect
     
 }
 
-extension StickerCollectionViewController: MessageExtensionDelegate{
+extension StickerCollectionViewController: MessageExtensionDelegate {
     
     func openStoreApp(id: String){
         if let idNumber = Int(id){
