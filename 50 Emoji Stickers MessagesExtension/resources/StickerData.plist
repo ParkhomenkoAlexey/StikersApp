@@ -16,7 +16,7 @@
 		<key>name</key>
 		<string>02-emoji.png</string>
 		<key>isFree</key>
-		<true/>
+		<false/>
 	</dict>
 	<dict>
 		<key>id</key>

@@ -14,11 +14,22 @@ class StickerCell: UICollectionViewCell {
         return UserData().productPurchased
     }
     
-    func configure(_ object: StickerObject){
-        if let sticker = object.sticker{
+    func configure(_ object: StickerObject) {
+        
+        if let sticker = object.sticker {
             stickerView.sticker = sticker
+//            if stickerCanAnimate(sticker: sticker) {
+//                stickerView.startAnimating()
+//            }
             stickerView.isUserInteractionEnabled = (object.isFree || allStickersUnlocked)
         }
+        
         lockButton.isHidden = object.isFree || allStickersUnlocked
     }
+    
+//    func stickerCanAnimate(sticker: MSSticker) -> Bool {
+//        guard let stickerImageSource = CGImageSourceCreateWithURL(sticker.imageFileURL as CFURL, nil) else { return false }
+//        let stickerFrameCount = CGImageSourceGetCount(stickerImageSource)
+//        return stickerFrameCount > 1
+//    }
 }

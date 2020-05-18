@@ -8,7 +8,7 @@ struct MoreAppsDataManager {
     
     static let shared = MoreAppsDataManager()
     
-    let developerId = "0"
+    let developerId = "1288067083"
     let lookupUrl = "https://itunes.apple.com/lookup?id=%@&entity=software"
     
     var dataSource = [[String: UIImage]]()

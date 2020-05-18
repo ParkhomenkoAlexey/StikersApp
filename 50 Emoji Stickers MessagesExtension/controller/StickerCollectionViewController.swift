@@ -67,6 +67,12 @@ class StickerCollectionViewController: UIViewController {
         }
     }
     
+    func stickerCanAnimate(sticker: MSSticker) -> Bool {
+        guard let stickerImageSource = CGImageSourceCreateWithURL(sticker.imageFileURL as CFURL, nil) else { return false }
+        let stickerFrameCount = CGImageSourceGetCount(stickerImageSource)
+        return stickerFrameCount > 1
+    }
+    
     func purchaseProduct(){
         ActivityIndicatorManager.shared.startActivityIndicator(on: self)
         IAPHelper.shared.requestProducts { (success, products) in
@@ -91,8 +97,8 @@ class StickerCollectionViewController: UIViewController {
     }
 }
 
-
-extension StickerCollectionViewController: UICollectionViewDataSource, UICollectionViewDelegate{
+// MARK: - UICollectionViewDataSource, UICollectionViewDelegate
+extension StickerCollectionViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataSource.count
@@ -110,9 +116,30 @@ extension StickerCollectionViewController: UICollectionViewDataSource, UICollect
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if cell.reuseIdentifier == Storyboard.cellIdentifier {
+            let stickerCell = cell as! StickerCell
+            if stickerCanAnimate(sticker: stickerCell.stickerView.sticker!) {
+                stickerCell.stickerView.startAnimating()
+                print("Start animating")
+            }
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if cell.reuseIdentifier == Storyboard.cellIdentifier {
+            let stickerCell = cell as! StickerCell
+            if stickerCell.stickerView.isAnimating() {
+                stickerCell.stickerView.stopAnimating()
+                print("Stop animating")
+            }
+        }
+    }
+    
     /*
      * Return collection view footer with the "More Apps" collection
     */
+    // MARK: - More Apps
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         switch kind{
         case UICollectionView.elementKindSectionFooter:
