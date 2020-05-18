@@ -121,7 +121,6 @@ extension StickerCollectionViewController: UICollectionViewDataSource, UICollect
             let stickerCell = cell as! StickerCell
             if stickerCanAnimate(sticker: stickerCell.stickerView.sticker!) {
                 stickerCell.stickerView.startAnimating()
-                print("Start animating")
             }
         }
     }
@@ -131,7 +130,6 @@ extension StickerCollectionViewController: UICollectionViewDataSource, UICollect
             let stickerCell = cell as! StickerCell
             if stickerCell.stickerView.isAnimating() {
                 stickerCell.stickerView.stopAnimating()
-                print("Stop animating")
             }
         }
     }

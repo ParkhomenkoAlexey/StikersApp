@@ -32,7 +32,6 @@ class MyStickerCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        stickerView.backgroundColor = .blue
         lockButton.setImage(#imageLiteral(resourceName: "lock_icn"), for: .normal)
         
         stickerView.translatesAutoresizingMaskIntoConstraints = false

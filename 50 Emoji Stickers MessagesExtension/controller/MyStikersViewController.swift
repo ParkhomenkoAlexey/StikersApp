@@ -55,10 +55,11 @@ class MyStikersViewController: UIViewController {
         }
     }
     
-    func purchaseProduct(){
+    func purchaseProduct() {
         ActivityIndicatorManager.shared.startActivityIndicator(on: self)
         IAPHelper.shared.requestProducts { (success, products) in
             products?.forEach({ (product) in
+                print("product buy")
                 IAPHelper.shared.buyProduct(product)
             })
         }
@@ -146,7 +147,6 @@ extension MyStikersViewController: UICollectionViewDelegate, UICollectionViewDat
             let stickerCell = cell as! MyStickerCell
             if stickerCanAnimate(sticker: stickerCell.stickerView.sticker!) {
                 stickerCell.stickerView.startAnimating()
-                print("Start animating")
             }
         }
     }
@@ -156,7 +156,6 @@ extension MyStikersViewController: UICollectionViewDelegate, UICollectionViewDat
             let stickerCell = cell as! MyStickerCell
             if stickerCell.stickerView.isAnimating() {
                 stickerCell.stickerView.stopAnimating()
-                print("Stop animating")
             }
         }
     }
@@ -167,6 +166,7 @@ extension MyStikersViewController: UICollectionViewDelegate, UICollectionViewDat
         
         let footerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: CollectionFooterView.reuseId, for: indexPath) as! CollectionFooterView
         footerView.delegate = self
+        footerView.messageDelegate = self
         return footerView
     }
     
@@ -190,9 +190,19 @@ extension MyStikersViewController: UICollectionViewDelegate, UICollectionViewDat
 
 // MARK: - HideButtonsDelegate
 extension MyStikersViewController: HideButtonsDelegate {
-    func hide() {
+    func unlockButtonPressed() {
         isHideButtons = !isHideButtons
         collectionView.reloadData()
+        
+        purchaseProduct()
+    }
+    
+    func restoreButtonPressed() {
+        isHideButtons = !isHideButtons
+        collectionView.reloadData()
+        
+        ActivityIndicatorManager.shared.startActivityIndicator(on: self)
+        IAPHelper.shared.restorePurchases()
     }
 }
 

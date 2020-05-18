@@ -9,7 +9,8 @@
 import UIKit
 
 protocol HideButtonsDelegate: class {
-    func hide()
+    func unlockButtonPressed()
+    func restoreButtonPressed()
 }
 
 class CollectionFooterView: UICollectionReusableView {
@@ -24,6 +25,9 @@ class CollectionFooterView: UICollectionReusableView {
     private let sectionInserts = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
     
     weak var delegate: HideButtonsDelegate?
+    weak var messageDelegate: MessageExtensionDelegate?
+    
+    var dataSource = MoreAppsDataManager.shared.dataSource
     
     var buttonsOnConstraint: NSLayoutConstraint!
     var buttonsOffConstraint: NSLayoutConstraint!
@@ -42,17 +46,18 @@ class CollectionFooterView: UICollectionReusableView {
     // MARK: - Actions
     @objc func unlockButtonTapped() {
         hideButtons()
+        delegate?.unlockButtonPressed()
     }
     
     @objc func restoreButtonTapped() {
         hideButtons()
+        delegate?.restoreButtonPressed()
     }
     
     func hideButtons() {
         buttonsStackView.removeFromSuperview()
         buttonsOnConstraint.isActive = false
         buttonsOffConstraint.isActive = true
-        delegate?.hide()
     }
     
     // MARK: - Setup View
@@ -83,7 +88,7 @@ class CollectionFooterView: UICollectionReusableView {
         appsCollectionView.delegate = self
         appsCollectionView.dataSource = self
         
-        appsCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cellId")
+        appsCollectionView.register(AppCollectionCell.self, forCellWithReuseIdentifier: AppCollectionCell.reuseId)
         
         if let layout = appsCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             layout.scrollDirection = .horizontal
@@ -143,13 +148,20 @@ class CollectionFooterView: UICollectionReusableView {
 // MARK: - UICollectionViewDelegate, UICollectionViewDataSource
 extension CollectionFooterView: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return dataSource.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath)
-        cell.backgroundColor = .red
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AppCollectionCell.reuseId, for: indexPath) as! AppCollectionCell
+        let itemToShow = dataSource[indexPath.row].values.first
+        cell.appImageView.image = itemToShow
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let appId = dataSource[indexPath.row].keys.first {
+            messageDelegate?.openStoreApp(id: appId)
+        }
     }
 
 }

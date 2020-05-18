@@ -135,6 +135,7 @@
 		F099FE4024727CC400F3F987 /* MyStikersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */; };
 		F099FE4224727CE400F3F987 /* CollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE4124727CE400F3F987 /* CollectionFooterView.swift */; };
 		F099FE442472821000F3F987 /* MyStickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE432472821000F3F987 /* MyStickerCell.swift */; };
+		F099FE462472866000F3F987 /* AppCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099FE452472866000F3F987 /* AppCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,7 @@
 		F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStikersViewController.swift; sourceTree = "<group>"; };
 		F099FE4124727CE400F3F987 /* CollectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFooterView.swift; sourceTree = "<group>"; };
 		F099FE432472821000F3F987 /* MyStickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStickerCell.swift; sourceTree = "<group>"; };
+		F099FE452472866000F3F987 /* AppCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,8 +416,9 @@
 				958EC98021FA1D24004E7A6C /* MessagesViewController.swift */,
 				95246FF721F8B3BB00873503 /* StickerCollectionViewController.swift */,
 				F099FE3F24727CC400F3F987 /* MyStikersViewController.swift */,
-				F099FE432472821000F3F987 /* MyStickerCell.swift */,
 				F099FE4124727CE400F3F987 /* CollectionFooterView.swift */,
+				F099FE432472821000F3F987 /* MyStickerCell.swift */,
+				F099FE452472866000F3F987 /* AppCollectionCell.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -663,6 +666,7 @@
 				958EC97321F9E861004E7A6C /* MoreAppsDataManager.swift in Sources */,
 				958EC98B21FB0BC6004E7A6C /* UIColorExt.swift in Sources */,
 				958EC99B21FB3D34004E7A6C /* AppFontUtil.swift in Sources */,
+				F099FE462472866000F3F987 /* AppCollectionCell.swift in Sources */,
 				95246FF921F8B3BB00873503 /* StickerCell.swift in Sources */,
 				958EC98D21FB0C86004E7A6C /* StringExt.swift in Sources */,
 				958EC99321FB199D004E7A6C /* AlertManager.swift in Sources */,
